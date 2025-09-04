@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url(assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: min(65rem, 90%);
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.head-content p{
+    color: hsl(303, 10%, 53%);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.head-stars{
+    margin-top: 40px;
+}
+.star-card{
+    background-color: hsl(300, 24%, 96%);
+    padding: 1px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.star-img{
+    margin-bottom: 0;
+    margin-top: 10;
+}
+.star-img img{
+    width: 6%;
+}
+.star-content{
+    margin-top: 5;
+    font-size: 0.85rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.proof{
+    margin-top: 30;
+}
+.proof-card{
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+.proof-head{
+    display: flex;
+    gap: 10px;
+}
+.proof-img{
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+.proof-con h4{
+    color: hsl(0, 0%, 100%);
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.proof-con p{
+    margin-top: 3px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: hsl(333, 80%, 67%);
+}
+.proof-content{
+    color: white;
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+@media (min-width:768px) and (max-width: 1023px) {
+    /* body{
+        width: 60rem;
+    } */
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        text-align: left;
+    }
+    .head h1{
+        font-size: 2.5rem;
+    }
+    .head-content p{
+        font-size: 0.8rem;
+    }
+    #heads{
+        margin-top: 60px;
+    }
+    .star-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 5px;
+        gap: 0;
+        width: 80%;
+    }
+    .star-img{
+        margin-left: 20px;
+    }
+    .star-img img{
+        width: 10%;
+    }
+    .star-content{
+        margin-left: -20px;
+        margin-top: 10;
+        margin-right: 0;
+        font-size: 0.7rem;
+    }
+    .proof{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .proof-con h4 p{
+        font-size: 0.8rem;
+    }
+    .proof-content{
+        font-size: 0.8rem;
+    }
+    #card{
+        height: 60%;
+    }
+    #card1{
+        margin-top: 20px;
+        height: 60%;
+    }
+    #card2{
+        margin-top: 40px;
+    }
+    #star1{
+        margin-left: 30px;
+    }
+    #star2{
+        margin-left: 60px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        text-align: left;
+    }
+    .head h1{
+        font-size: 3.5rem;
+    }
+    .head-content p{
+        font-size: 1.2rem;
+    }
+    #heads{
+        margin-top: 80px;
+    }
+    .star-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 5px;
+        gap: 0;
+        width: 80%;
+    }
+    .star-img{
+        margin-left: 20px;
+    }
+    .star-img img{
+        width: 10%;
+    }
+    .star-content{
+        margin-left: -50px;
+        margin-top: 10;
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    .proof{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+    .proof-content{
+        font-size: 1rem;
+    }
+    #card{
+        height: 60%;
+    }
+    #card1{
+        margin-top: 20px;
+        height: 60%;
+    }
+    #card2{
+        margin-top: 40px;
+    }
+    #star1{
+        margin-left: 30px;
+    }
+    #star2{
+        margin-left: 60px;
+    }
+}
